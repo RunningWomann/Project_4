@@ -19,8 +19,8 @@ How many years are we analyzing?
 We are analyzing 5 years worth of historical data. We will be reviewing data from April 2018 to April 2023.
 
 How many airline carriers are we comparing in our Dashboard?
-10 major airline carriers
-(Endeavor Air Inc., American Airlines Inc., Alaska Airlines Inc., JetBlue Airways, Delta Air Lines Inc., Frontier Airlines Inc., Allegiant Air, Hawaiian Airlines Inc., Envoy Air, Spirit Airlines, PSA Airlines Inc., SkyWest Airlines Inc., United Air Lines Inc., Southwest Airlines Co., Republic Airline, Horizon Air, Mesa Airlines Inc.)
+5 major airline carriers
+(American Airlines Inc., Delta Air Lines Inc., Spirit Airlines, United Air Lines Inc., Southwest Airlines Co.)
 
 ## Slide Deck URL Link
 https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
