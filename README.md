@@ -63,10 +63,6 @@ if __name__ == '__main__':
     app.run(debug = True)
 ```
 
-Below is our index.html file.
-```
-
-```
 
 ### 3) Open the localhost (http://127.0.0.1:5000/)
 
