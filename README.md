@@ -70,6 +70,15 @@ Below is our index.html file.
 
 ### 3) Open the localhost (http://127.0.0.1:5000/)
 
+![Screenshot_1](https://github.com/RunningWomann/Project_4-Airline-Delays-in-United-States/assets/126130038/8ede3069-c538-4763-b14f-d80f07525552)
+![Screenshot_2](https://github.com/RunningWomann/Project_4-Airline-Delays-in-United-States/assets/126130038/fe8c4acf-3736-432a-9fcc-8faa1d07c34d)
+
+
+
+
+
+
+
 
 
 ## Data
