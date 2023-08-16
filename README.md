@@ -15,8 +15,8 @@ Andy Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
 What is considered “delayed”?
 A flight is considered delayed when it arrived 15 or more minutes later than the schedule
 
-How many years are we analyzing?
-We are analyzing 5 years worth of historical data. We will be reviewing data from April 2018 to April 2023.
+How many months/years are we analyzing?
+We are analyzing fight data for January 2020.
 
 How many airline carriers are we comparing in our Dashboard?
 5 major airline carriers
