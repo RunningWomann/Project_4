@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title> 
+    Project 4: Flight Delay Analysis 
+  </title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='dash_css_min.css') }}">
+</head>
+<body>
+<style>
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(53, 98, 134); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(209, 63, 136); 
+  }
+  #rolling_containter div{
+      margin-bottom: 10px; 
+  }.graphTitle{
+      margin-left: 5px;
+  }#vizContainers{
+    margin: 10px;
+    max-height: 450px;
+    overflow-y:hidden;
+  }.cardExtends{
+    height: 80%;
+  }.inputboxes{
+    background-color: rgb(30, 32, 36);
+    border-color: rgb(249,150,200);
+    height: 35px;
+    width: 40%;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+  }.inputboxes:focus{
+    outline: 0px;
+  }i::before{
+    background:transparent;
+  }#makethisnone{
+    display: none;
+  }#feedInput{
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 2%;
+    font-size: larger;
+  }#inputboxes{
+    max-width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+</style>
+
+<!-- Tableau Title Section -->
+
+<div class="content">
+  <div class="row">
+    <div class="col-12" style="height:fit-content;">
+      <div class="card card-chart cardExtends">
+        <div class="card-header ">
+          <div class="row">
+            <div class="col-sm-6 text-left">
+              
+              <h2 style="background-color:rgb(240, 243, 247);"><b> Tableau Report </b></h2> 
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+<!-- Tableau Section -->
+
+        <div class='tableauPlaceholder' id='viz1692057102804' style='position: relative'>
+          <noscript><a href='#'>
+            <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project4_AirlineDelaysinUS&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+              <param name='embed_code_version' value='3' /> 
+              <param name='site_root' value='' />
+              <param name='name' value='Project4_AirlineDelaysinUS&#47;Dashboard1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project4_AirlineDelaysinUS&#47;Dashboard1&#47;1.png' /> 
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+              <param name='tooltip' value='yes' />
+            </object>
+          </div>    
+          
+          <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1692057102804');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) 
+            { vizElement.style.minWidth='720px';
+            vizElement.style.maxWidth='1420px';
+            vizElement.style.width='100%';
+            vizElement.style.minHeight='587px';
+            vizElement.style.maxHeight='960px';
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='720px';
+            vizElement.style.maxWidth='1420px';
+            vizElement.style.width='100%';vizElement.style.minHeight='587px';
+            vizElement.style.maxHeight='960px';
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';
+            vizElement.style.height='1300px';}                    
+             var scriptElement = document.createElement('script');                    
+             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+         
+
+
+ <!-- Javascript Title Section -->
+
+         <div class="row">
+          <div class="col-12" style="height:fit-content;">
+            <div class="card card-chart cardExtends">
+              <div class="card-header ">
+                <div class="row">
+                  <div class="col-sm-6 text-left">
+                    <h2 style="background-color:rgb(240, 243, 247);"><b>Javascript Line Chart</b></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+  <!-- Javascript Section -->
+  
+  <div style="width: 900px; height: 400px;">
+    <canvas id="Chart"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"></script>
+
+  <script>
+
+    let labels = ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 4', 'Jan 5', 'Jan 6', 'Jan 7', 'Jan 8', 'Jan 9', 'Jan 10', 'Jan 11', 'Jan 12', 'Jan 13', 'Jan 14', 'Jan 15', 'Jan 16','Jan 17', 'Jan 18', 'Jan 19', 'Jan 20', 'Jan 21', 'Jan 22', 'Jan 23', 'Jan 24', 'Jan 25', 'Jan 26', 'Jan 27', 'Jan 28', 'Jan 29', 'Jan 30', 'Jan 31'];
+    let itemdata = [2250, 2806, 3922, 4468, 3248, 2628, 1617, 2321, 1644, 3258, 3775, 3410, 3416, 2321, 1707, 4830, 3571, 3439, 2069, 2258, 1804, 1754, 2773, 2510, 1760, 1851, 2639, 1720, 1371, 2112, 3033];
+
+    const data = {
+      labels: labels,
+      datasets: [{
+      label: 'Flight Delays',
+      data: itemdata,
+      borderColor: 'rgb(75, 192, 192)',
+      fill: false
+  }]
+};
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            plugins: {
+              legend: {
+                display: false
+        },
+        title: {
+          display: true,
+          text: 'January 2020 Flight Delays by Day'
+        }
+            }
+          }
+        }
+
+    const chart = new Chart(
+        document.getElementById('Chart'),
+        config
+    );
+
+    </script>
+    <br></br>
+    <br></br>
+
+
+
+
+
+
+ <!-- Footer -->
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://github.com/RunningWomann/Project_4-Airline-Delays-in-United-States" target="_blank" style="font-size:larger;">
+                  GitHub Repository 
+                </a>
+              </li>
+              <li>
+                  <b>Contributor LinkedIn Profiles:</b>
+                </a>
+                <a href="https://www.linkedin.com/in/cassiecontreras/" target="_blank" style="font-size:larger;">
+                  Andy Nguyen |
+              <a>    
+                <a href="https://www.linkedin.com/in/cassiecontreras/" target="_blank" style="font-size:larger;">
+                  Cassie Contreras |
+                </a>
+                <a href="https://www.linkedin.com/in/cassiecontreras/" target="_blank" style="font-size:larger;">
+                  Chun Zhao |
+                </a>
+                <a href="https://www.linkedin.com/in/cassiecontreras/" target="_blank" style="font-size:larger;">
+                  Jing Xu |
+                </a>
+                
+                  Rihanna Afkami
+                </a>
+              </li>
+            </ul>
+          </nav>
+      </footer>
+      </div>
+    </div>
+    <br></br>
+    <br></br>
+</body>
+
+</html>
