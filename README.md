@@ -7,9 +7,9 @@
 Andy Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
 
 ## Background
-In a post-COVID era, the aviation industry experienced a shortage of airline workers, and struggled to meet the high demand. Travelers in 2022 were most likely to experience flight delays and cancellations.  
 
-Using data from U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS), we gathered and analyzed 5 years worth of data from 04/2018 to 04/2023 to track the on-time performance of domestic flights operated by 10 large air carriers.  
+
+
 
 ## Key Things to Note
 What is considered “delayed”?
@@ -22,17 +22,57 @@ How many airline carriers are we comparing in our Dashboard?
 5 major airline carriers
 (American Airlines Inc., Delta Air Lines Inc., Spirit Airlines, United Air Lines Inc., Southwest Airlines Co.)
 
+
+
 ## Slide Deck URL Link
 https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
 
+
+
+
 ## Coding Approach
+### 1) Run Python script for our machine learning model.
 
 ```
 Enter Code here.
 ```
 
 
+
+### 2) Flask Dashboard
+A dashboard that combines a Tableau Dashboard and a Javascript chart.
+
+Install requirements and build flask dev server
+```
+from flask import Flask, jsonify, render_template
+
+#################################################
+# Flask Setup
+#################################################
+app = Flask(__name__)
+
+#################################################
+# Flask Routes
+#################################################
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+if __name__ == '__main__':
+    app.run(debug = True)
+```
+
+Below is our index.html file.
+```
+
+```
+
+### 3) Open the localhost (http://127.0.0.1:5000/)
+
+
+
 ## Data
-Source: https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
+Source: https://www.kaggle.com/datasets/divyansh22/flight-delay-prediction
 
 Collection Methodology: Download data from website
