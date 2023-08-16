@@ -4,7 +4,7 @@
 # Project 4: Airline Delays in United States
 
 ## Contributors 
-Chun Zhao, Rihanna Afkami, Jing Xu, Andy Nguyen, Cassie Contreras
+Andy Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
 
 ## Background
 In a post-COVID era, the aviation industry experienced a shortage of airline workers, and struggled to meet the high demand. Travelers in 2022 were most likely to experience flight delays and cancellations.  
