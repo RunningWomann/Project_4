@@ -7,8 +7,9 @@
 Andy Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
 
 ## Background
+Flight delays have been gradually increasing and bringing more financial difficulties to airline companies.  Despite the increase in travel delays, more and more people are choosing to travel.   
 
-
+Using data collected from the Bureau of Transportation Statistics, Govt. of the USA, we analyzed a dataset that contained all flights in the month of January 2020 for 5 major airlines in the United States, a total of over 300,000 flights. We applied several machine learning models to track the on-time performance of domestic flights.  
 
 
 ## Key Things to Note
