@@ -23,12 +23,17 @@ How many airline carriers are we comparing in our Dashboard?
 5 major airline carriers
 (American Airlines Inc., Delta Air Lines Inc., Spirit Airlines, United Air Lines Inc., Southwest Airlines Co.)
 
-
+## Questions
+1) What ML model is recommended to predict delayed or ontime flights accurately?
+2) Is it possible to predict which airports will have delayed or cancelled flights?
+3) How can we solve over-fitted/imbalanced data?
+   
 
 ## Slide Deck URL Link
 https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
 
-
+## Dashboard Link
+http://project4bootcamp.pythonanywhere.com/
 
 
 ## Coding Approach
