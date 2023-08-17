@@ -29,13 +29,6 @@ How many airline carriers are we comparing in our Dashboard?
 3) How can we solve over-fitted/imbalanced data?
    
 
-## Slide Deck URL Link
-https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
-
-## Dashboard Link
-http://project4bootcamp.pythonanywhere.com/
-
-
 ## Coding Approach
 ### 1) Run Python script for our machine learning model.
 
@@ -81,6 +74,11 @@ if __name__ == '__main__':
 
 
 
+## Slide Deck URL Link
+https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
+
+## Dashboard Link
+http://project4bootcamp.pythonanywhere.com/
 
 
 
