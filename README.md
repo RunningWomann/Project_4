@@ -77,7 +77,7 @@ if __name__ == '__main__':
 ## Slide Deck URL Link
 https://docs.google.com/presentation/d/1GMbDEG-OmT-2sZ0gFJJDa3f32OXHFAf0Fo3mm4_SQyo/edit?usp=sharing
 
-## Dashboard Link
+## Dashboard URL Link
 http://project4bootcamp.pythonanywhere.com/
 
 
