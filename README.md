@@ -30,7 +30,7 @@ How many airline carriers are we comparing in our Dashboard?
    
 
 ## Coding Approach
-### 1) Run Python script for our machine learning model.
+### 1) Run Python script for our machine learning model
 
 ```
 Enter Code here.
