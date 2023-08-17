@@ -63,7 +63,7 @@ if __name__ == '__main__':
 ```
 
 
-### 3) Open the localhost (http://127.0.0.1:5000/)
+### 3) Open the localhost (http://127.0.0.1:5000/) or view our Dashboard Link
 
 ![Screenshot_1](https://github.com/RunningWomann/Project_4-Airline-Delays-in-United-States/assets/126130038/3aad3aef-62cd-4a05-9c5d-7834e0515018)
 ![Screenshot_2](https://github.com/RunningWomann/Project_4-Airline-Delays-in-United-States/assets/126130038/bfb2d2e4-d155-4492-b753-384df813dd8c)
