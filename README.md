@@ -4,7 +4,7 @@
 # Project 4: Airline Delays in United States
 
 ## Contributors 
-Andy Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
+Andy Anh Nguyen, Cassie Contreras, Chun Zhao, Jing Xu, Rihanna Afkami
 
 ## Background
 Flight delays have been gradually increasing and bringing more financial difficulties to airline companies.  Despite the increase in travel delays, more and more people are choosing to travel.   
